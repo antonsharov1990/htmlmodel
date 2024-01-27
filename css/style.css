@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#settings
+{
+    background-color: lightgoldenrodyellow;
+    min-width: 300px;
+}
+
+#content
+{
+    background-color: lightblue;
+    min-height: 600px;
+    max-height: 600px;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#boy > img
+{
+    max-height: 100px;
+}
+
+#ball > img
+{
+    max-height: 20px;
+}
+
+#boy{
+    display: block;
+    padding: 420px 600px 0 0;
+}
+
+#ball
+{
+    display: block;
+    margin: -75px 0 0 50px;
+}
+
+input
+{
+    margin: 20px;
+}
+
+p{
+    margin: 20px;
+}
+
+#timer
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
